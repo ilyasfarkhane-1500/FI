@@ -62,7 +62,7 @@ a:hover {
   font-size: 1.5rem;
 }
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 /* humberger-menu */
@@ -137,6 +137,7 @@ section {
 }
 .section-container {
   display: flex;
+  /* border: 1px red solid; */
 }
 
 /* profile section */
@@ -219,4 +220,115 @@ section {
 }
 .btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
+}
+#about {
+  position: relative;
+}
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px red solid; */
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.about-pic {
+  border-radius: 3rem;
+  transform: scaleX(-1);
+}
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+  /* border: 1px red solid; */
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.section-container {
+  gap: 10rem;
+  height: 80%;
+  /* border: 1px red solid; */
+  justify-content: center;
+}
+.section__pic-container {
+  /* border: red 1px solid; */
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+#experience {
+  position: relative;
+}
+#projects {
+  position: relative;
+  height: 245vh;
+}
+.project-details-container {
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px red solid; */
+}
+.section-container-pr {
+  display: flex;
+  /* border: 1px green solid; */
+  margin-top: 50px;
+  justify-content: center;
+}
+.pro-arrow {
+  position: absolute;
+  right: -5rem;
+  top: 90.5rem;
+  /* border: 1px red solid; */
+}
+.proj-containers {
+  gap: 2rem;
+  /* border: 1px red solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+#contact {
+  position: relative;
+}
+/* .details-container-pr {
+  display: flex;
+  
+  margin-top: 50px;
+  justify-content: center;
+} */
+.details-container-pr {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  display: flex;
+  /* border: 1px green solid; */
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.icon-co {
+  cursor: pointer;
+  height: 3rem;
+}
+.icon-co1 {
+  cursor: pointer;
+  height: 4rem;
 }
